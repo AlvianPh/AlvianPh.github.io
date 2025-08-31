@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website Profil</title>
+    <meta
+      name="description"
+      content="Profil singkat guru KKA: pengenalan, kompetensi, proyek, dan kontak."
+    />
+    <meta property="og:title" content="Guru KKA · Profil" />
+    <meta
+      property="og:description"
+      content="Profil singkat guru Koding & Kecerdasan Artifisial untuk SMK."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav-inner container">
+        <a href="#home" class="brand">
+          <span class="badge" aria-hidden="true">AI</span>
+          <span>Website Profil </span>
+        </a>
+        <nav class="nav-links">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang</a>
+          <a href="#capaian">Capaian Pembelajaran</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#contact">Kontak</a>
+          <button class="toggle" id="themeToggle" aria-label="Ganti tema">
+            🌗 <span style="font-weight: 700">Tema</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="container hero">
+      <div>
+        <div class="chip" style="margin-bottom: 10px">
+          👋 Halo, saya Alvian Putra Hardiadi
+        </div>
+        <h1>
+          Guru
+          <span class="gradient-text">Koding & Kecerdasan Artifisial</span>
+        </h1>
+        <p>
+          Fokus pada pembelajaran <strong>praktis</strong> dan
+          <strong>relevan</strong>: pemrograman berorientasi objek, analisis
+          data, dasar AI & Machine Learning, serta etika digital.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#about">Lihat Profil</a>
+          <a class="btn" href="#projects">Contoh Proyek</a>
+        </div>
+      </div>
+      <div class="profile" aria-label="Foto/ilustrasi profil">
+        <span id="initials">NA</span>
+      </div>
+    </main>
+
+    <!-- About: kini ditempatkan langsung di bawah hero dan diberi tampilan "sewarna" -->
+    <section id="about" class="container">
+      <br />
+      <br />
+      <br />
+
+      <div class="about-card">
+        <h2>Tentang Saya</h2>
+        <p class="lead">
+          Saya adalah guru
+          <strong>Koding dan Kecerdasan Artifisial</strong> sementara yang akan
+          menemani kalian untuk satu semester kedepan. Saya berasal dari
+          Wonosobo Lahir pada tanggal 10 April 2004. Sekarang saya tinggal di
+          Jalan Kaliurang KM 14.
+        </p>
+      </div>
+    </section>
+
+    <section id="contract" class="container">
+      <div class="contract-card">
+        <h2>Kontrak Mengajar</h2>
+        <p>
+          Untuk mendukung suasana belajar yang nyaman dan efektif, berikut
+          beberapa kontrak belajar yang kita sepakati bersama:
+        </p>
+        <ul>
+          <li>📌 Hadir tepat waktu dan disiplin mengikuti jadwal pelajaran.</li>
+          <li>
+            📌 Membawa peralatan belajar (laptop/alat tulis) sesuai kebutuhan.
+          </li>
+          <li>📌 Aktif berdiskusi, bertanya, dan menyampaikan pendapat.</li>
+          <li>📌 Menyelesaikan tugas individu maupun kelompok tepat waktu.</li>
+          <li>
+            📌 Menghargai guru dan teman, menjaga sikap serta etika dalam kelas.
+          </li>
+          <li>📌 Tidak melakukan plagiarisme dalam pengerjaan tugas/proyek.</li>
+        </ul>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section id="capaian" class="container">
+      <h2>Rencana Capaian Pembelajaran</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <strong>Pengenalan HTML & CSS</strong> · Membuat halaman web statis
+          sederhana untuk profil guru & mata pelajaran.
+        </div>
+        <div class="t-item">
+          <strong>Logika Pemrograman</strong> · Diskusi tentang algoritma
+          sederhana menggunakan Flowchart atau Python.
+        </div>
+        <div class="t-item">
+          <strong>AI dalam Kehidupan Sehari-hari</strong> · Mengenal aplikasi AI
+          sederhana (chatbot, rekomendasi, image recognition).
+        </div>
+        <div class="t-item">
+          <strong>Analisis data</strong> · Mengenal mengenai bagaimana cara menganalisis data dan toolsnya
+        </div>
+        <div class="t-item">
+          <strong>Etika AI</strong> · Diskusi tentang tanggung jawab penggunaan
+          teknologi AI.
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Portfolio & Karya</h2>
+      <div class="grid cols-3">
+        <div class="card hoverable">
+          <h3>💻 Website Profil Pribadi</h3>
+          <p>
+            Website statis modern menggunakan HTML, CSS, dan JavaScript untuk
+            pengenalan diri di kelas.
+          </p>
+          <a href="#" class="btn">Lihat Proyek</a>
+        </div>
+
+        <div class="card hoverable">
+          <h3>🏠 Manajemen Kost</h3>
+          <p>
+            Aplikasi sederhana untuk mengelola data penghuni, pembayaran kost
+            secara digital.
+          </p>
+          <a href="#" class="btn">Lihat Proyek</a>
+        </div>
+
+        <div class="card hoverable">
+          <h3>🌐 Literasi Digital</h3>
+          <p>
+            Materi interaktif tentang keamanan digital, jejak digital, dan
+            pemanfaatan internet sehat.
+          </p>
+          <a href="#" class="btn">Lihat Proyek</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h2>Kontak</h2>
+      <div class="grid cols-2">
+        <!-- Bagian kiri: informasi kontak -->
+        <div class="card">
+          <h3>Hubungi Saya</h3>
+          <p>
+            Jika Anda ingin berdiskusi lebih lanjut mengenai mata pelajaran
+            <strong>Koding & Kecerdasan Artifisial</strong>, silakan hubungi
+            saya melalui kontak berikut:
+          </p>
+          <ul>
+            <li>
+              📧 Email: <a href="alvian.ok123@gmail.com">Alvian.ok123@gmail.com/a>
+            </li>
+            <li>
+              📱 WhatsApp:
+              <a href="https://wa.me/6295375150908" target="_blank"
+                >+62 895-3751-50908</a
+              >
+            </li>
+            <li>
+              🔗 LinkedIn:
+              <a href="https://www.linkedin.com/in/username" target="_blank"
+                >linkedin.com/in/Alvian Putra Hardiadi</a
+              >
+            </li>
+            <li>
+              💼 GitHub:
+              <a href="https://github.com/AlvianPh" target="_blank"
+                >github.com/AlvianPh</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bagian kanan: form kontak -->
+        <form class="card">
+          <label>Nama<input type="text" class="input" required /></label>
+          <label
+            >Pesan<textarea class="input" rows="4" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="footer-content">
+        <small
+          >© <span id="year">2025</span> <span> Alvian Putra Hardiadi</span> ·
+          Dibuat untuk pembelajaran KKA.</small
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
